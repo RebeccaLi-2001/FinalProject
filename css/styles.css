@@ -16,6 +16,12 @@ a:hover {
 	text-decoration: underline;
 }
 
+nav {
+	font-family: 'Tenor Sans', sans-serif;
+	
+	
+}
+
 footer {
 	clear: both; /* The clear property specifies which side(s) of an element other floating elements are not allowed. */
 	margin: 0;
@@ -135,9 +141,13 @@ html {
 .greeting{
 	text-align: center;
 	font-family: 'Changa', sans-serif;
-	padding-top: 10em;
+	padding-top: 7em;
 	padding-bottom: 10em;
 }
+
+/* .different_languages{
+	font-family: 'Ariel';
+} */
 
 .card-image{
 	padding-top:7px;
