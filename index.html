@@ -22,7 +22,7 @@
     <!-- External Links to JS files -->
     <script src="js/jquery-3.4.1.min.js" ></script>
     <script src="js/scripts.js" ></script>
-	<script src="js/jquery-ui.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/jquery.lightbox.min.js" ></script>
 	
 
@@ -37,6 +37,7 @@
 </head>
     
 <body>
+	
 	<section id ="sec-1">
 	<nav>
 		<div class="nav-wrapper red lighten-3">
@@ -44,7 +45,7 @@
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li class="active"><a href="index.html">Work</a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				
 			</ul>
 		</div>
 	</nav>
@@ -70,22 +71,47 @@
 			<div id="content">
 				<h3>Project</h3>
 			<div id="content-gallery">
-				<p>Click on the thumbnail to see full image and description</p>
+				<p>Click on the thumbnail to see full image</p>
 			<div id="gallery">
-			<div id="galleryIcon1"><div id="Shadow1">
-			<a href="images/Project1.jpg" title="15-112 Term Project - Musical Game Development">
-			<!--Image from https://wapbaike.baidu.com/pic/抹茶/775/1/e1fe9925bc315c6043a9456184b1cb134954777b?bk_fr=view_summary-->
-			<img src="images/Project1.jpg" class = "thumbnail_photo" alt="image 1"/></a></div></div>
+			<div id="galleryIcon1">
+				<div id="Shadow1" class = "box">
+					<a href="images/Project1.jpg" title="15-112 Term Project - Musical Game Development">
+					<img src="images/Project1.jpg" class = "thumbnail_photo" alt="Photo for Musical Game Development Project"/></a>
+					<div class = "project-description">
+						<p>Name: Go Girl</p>
+						<p>Description: Musical Game Development</p>
+						<p>Modules: Python, Pygame</p>
+						<p>Features: Random Level Generator, 2.5D Animation</p>
+					</div>
+				</div>
+			</div>
 
-			<div id="galleryIcon2"><div id="Shadow2">
-				<a href="images/Project2.jpg" title="The Information Milieux Term Project- Web Development">
-			<!--Image from https://wapbaike.baidu.com/pic/乌龙茶/1072/0/263e802f0449287e1f3089ac?bk_fr=view_img-->
-			<img src="images/Project2.jpg" class = "thumbnail_photo" alt="image 2"/></a></div></div>
+			<div id="galleryIcon2">
+				<div id="Shadow2" class = "box">
+					<a href="images/Project2.jpg" title="The Information Milieux Term Project- Web Development">
+					<img src="images/Project2.jpg" class = "thumbnail_photo" alt="Photo for The Information Milieux Term Project"/></a>
+					<div class = "project-description">
+						<p>Name: Redesign of Blue Monkey Tea Website</p>
+						<p>Description: Interactive Web Development</p>
+						<p>Modules: HTML, CSS, JavaScript, JQuery</p>
+						<p>Features: Interactive Forms, Collapsible Pictures</p>
+					</div>
+				</div>
+			</div>
+			
 
-			<div id="galleryIcon3"><div id="Shadow3">
-				<a href="images/Project3.jpg" title="Programmable User Interfces Term Project- Interactive Web Development">
-			<!--Image from https://baike.baidu.com/pic/绿茶/13497/0/8cb1cb13495409237a47a0de9658d109b3de4960?bk_fr=view_img-->
-				<img src="images/Project3.jpg" class = "thumbnail_photo" alt="image 3"/></a></div></div>
+			<div id="galleryIcon3">
+				<div id="Shadow3" class = "box">
+					<a href="images/Project3.jpg" title="Programmable User Interfces Term Project- Interactive Web Development">
+					<img src="images/Project3.jpg" class = "thumbnail_photo" alt="Photo for Programmable User Interfces Term Project, Interactive Web Development"/></a>
+					<div class = "project-description">
+						<p>Name: Bun Bun Bake Shop Website</p>
+						<p>Description: UI Design</p>
+						<p>Modules: HTML, CSS, JavaScript</p>
+						<p>Features: Interactive Shopping Cart, Responsive Pictures</p>
+					</div>
+				</div>
+			</div>
 			</div>
 			</div>
 		
